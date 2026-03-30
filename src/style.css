@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Amiri:wght@400;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --theme-grad-from: #FDE8EF;
+  --theme-grad-via: #FCE4F0;
+  --theme-grad-to: #FBAED2;
+  --theme-text-primary: #7C3D52;
+  --theme-text-secondary: #A05070;
+  --theme-accent: #F472B6;
+  --theme-card-bg: rgba(255,255,255,0.65);
+  --theme-card-border: rgba(244,114,182,0.25);
+  --theme-shape: rgba(244,114,182,0.18);
+  --theme-nav-bg: rgba(255,255,255,0.7);
+  --theme-nav-text: #A05070;
+  --theme-nav-active: #F472B6;
+  --dzikr-font-size: 16px;
+}
+@font-face {
+  font-family: 'BrittanySignature';
+  src: url('@/assets/fonts/BrittanySignature.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body { font-family: 'Plus Jakarta Sans', sans-serif; overscroll-behavior: none; height: 100%; }
+#app { height: 100%; }
+
+.arabic-text { font-family: 'Amiri', serif; direction: rtl; text-align: right; line-height: 2; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.glass-card {
+  background: var(--theme-card-bg);
+  border: 1px solid var(--theme-card-border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
