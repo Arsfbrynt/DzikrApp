@@ -84,7 +84,7 @@
         v-if="settingStore.isShowTranslate"
         class="terjemahan-text"
         lang="id"
-        :style="{ fontSize: `calc(var(--dzikr-font-size) * 0.88)` }"
+        :style="{ fontSize: `calc(var(--dzikr-font-size) * 0.75)` }"
       >
         {{ card.terjemahan }}
       </p>
