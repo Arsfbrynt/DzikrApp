@@ -1,8 +1,16 @@
 <template>
   <div class="setting-page">
-    <div class="page-header">
-      <h1 class="page-title">Pengaturan</h1>
-      <p class="page-sub">Personalisasi tampilanmu</p>
+    <div class="page-header flex justify-between">
+      <div>
+        <h1 class="page-title">Pengaturan</h1>
+        <p class="page-sub">Personalisasi tampilanmu</p>
+      </div>
+      <a
+        href="mailto:arsfbrynt@gmail.com?subject=Kritik%20DzikrApp"
+        title="Kirim kritik & saran"
+      >
+        <MessageSquareDiff class="header-icon" :size="20" />
+      </a>
     </div>
 
     <div class="setting-body no-scrollbar">
@@ -114,7 +122,7 @@
 
 <script setup lang="ts">
 import { computed, ref, watch } from "vue";
-import { Type, Palette } from "lucide-vue-next";
+import { Type, Palette, MessageSquareDiff } from "lucide-vue-next";
 import { useSettingStore, THEMES, type ThemeName } from "@/stores/setting";
 
 const settingStore = useSettingStore();
@@ -364,5 +372,18 @@ watch(
 
 .bottom-pad {
   height: 24px;
+}
+
+.header-icon {
+  color: var(--theme-accent);
+  background: linear-gradient(
+    120deg,
+    var(--theme-grad-from),
+    var(--theme-grad-to)
+  );
+  padding: 8px;
+  border-radius: 15px;
+  width: 40px;
+  height: 40px;
 }
 </style>
