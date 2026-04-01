@@ -172,14 +172,14 @@
     "faedah": "Meminta pada Allah kebaikan di hari ini dan kebaikan sesudahnya."
   },
   {
-    "id": 20,
+    "id": 21,
     "arabic": "أَصْبَحْنَا عَلَى فِطْرَةِ اْلإِسْلاَمِ وَعَلَى كَلِمَةِ اْلإِخْلاَصِ، وَعَلَى دِيْنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، وَعَلَى مِلَّةِ أَبِيْنَا إِبْرَاهِيْمَ، حَنِيْفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِيْنَ",
     "latin": "Ash-bahnaa ‘ala fithrotil islaam wa ‘alaa kalimatil ikhlaash, wa ‘alaa diini nabiyyinaa Muhammadin shallallahu ‘alaihi wa sallam, wa ‘alaa millati abiina Ibraahiima haniifam muslimaaw wa maa kaana minal musyrikin",
-    "terjemahan": "Di waktu pagi kami memegang agama Islam, kalimat ikhlas (kalimat syahadat), agama Nabi kami Muhammad shallallahu ‘alaihi wa sallam, dan agama bapak kami Ibrahim, yang berdiri di atas jalan yang lurus, muslim dan tidak tergolong orang-orang musyrik.” (Dibaca 1 x di pagi hari saja)",
+    "terjemahan": "Di waktu pagi kami memegang agama Islam, kalimat ikhlas (kalimat syahadat), agama Nabi kami Muhammad shallallahu ‘alaihi wa sallam, dan agama bapak kami Ibrahim, yang berdiri di atas jalan yang lurus, muslim dan tidak tergolong orang-orang musyrik.",
     "source": "HR. Ahmad (3: 406). Syaikh Syu’aib Al Arnauth mengatakan bahwa sanad hadits ini shahih sesuai syarat Bukhari Muslim. Lihat pula As Silsilah Ash Shahihah no. 2989.\n\nCatatan: Dzikir ini hanya dibaca di pagi hari. Riwayat yang menyatakan dibaca juga saat petang hari adalah riwayat yang lemah. Sebagaimana dinyatakan oleh guru penulis, Syaikh ‘Abdul ‘Aziz Ath Thorifi dalam Adzkar Ash Shobaah wal Masaa’, hal. 65."
   },
   {
-    "id": 21,
+    "id": 22,
     "arabic": "سُبْحَانَ اللهِ وَبِحَمْدِهِ",
     "latin": "Subhanallah wa bi-hamdih.",
     "surah": "Dibaca 100x",
@@ -188,7 +188,7 @@
     "source": "HR. Muslim no. 2692."
   },
   {
-    "id": 22,
+    "id": 23,
     "surah": "Dibaca 100x",
     "arabic": "لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ",
     "latin": "Laa ilaha illallah wahdahu laa syarika lah, lahul mulku walahul hamdu wa huwa ‘ala kulli syai-in qodiir.",
@@ -197,7 +197,7 @@
     "source": "HR. An Nasai Al Kubra 6: 10."
   },
   {
-    "id": 23,
+    "id": 24,
     "surah": "Dibaca 3x",
     "arabic": "سُبْحَانَ اللهِ وَبِحَمْدِهِ: عَدَدَ خَلْقِهِ، وَرِضَا نَفْسِهِ، وَزِنَةَ عَرْشِهِ وَمِدَادَ كَلِمَاتِهِ",
     "latin": "Subhanallah wa bi-hamdih, ‘adada kholqih wa ridhoo nafsih. wa zinata ‘arsyih, wa midaada kalimaatih.",
@@ -206,21 +206,21 @@
     "source": "HR. Muslim no. 2726."
   },
   {
-    "id": 24,
+    "id": 25,
     "arabic": "اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلاً مُتَقَبَّلاً",
     "latin": "Allahumma innii as-aluka ‘ilman naafi’a, wa rizqon thoyyibaa, wa ‘amalan mutaqobbalaa.",
     "terjemahan": "“Ya Allah, sungguh aku memohon kepada-Mu ilmu yang bermanfaat (bagi diriku dan orang lain), rizki yang halal dan amal yang diterima (di sisi-Mu dan mendapatkan ganjaran yang baik)",
     "source": "HR. Ibnu Majah no. 925 dan Ahmad 6: 305, 322. Al Hafizh Abu Thohir mengatakan bahwa hadits ini shahih."
   },
   {
-    "id": 25,
+    "id": 26,
     "surah": "Dibaca 7x",
     "arabic": "أَسْتَغْفِرُ اللهَ وَأَتُوْبُ إِلَيْهِ",
     "latin": "Astagh-firullah wa atuubu ilaih.",
     "source": "HR. Bukhari no. 6307 dan Muslim no. 2702."
   },
   {
-    "id": 26,
+    "id": 27,
     "surah": "Dibaca 3x",
     "arabic": "أَعُوْذُ بِكَلِمَاتِ اللهِ التَّآمَّاتِ مِنْ شَرِّ مَا خَلَقَ",
     "latin": "A'udzu bikalimaatillaahit-taammaati min syarri maa khalaq",
@@ -229,7 +229,7 @@
     "faedah": "Meminta perlindungan Allah dari semua kejahatan, baik jin, manusia, maupun hewan berbisa"
   },
   {
-    "id": 27,
+    "id": 28,
     "surah": "Dibaca 3x",
     "arabic": "اللَّهُمَّ صَلِّ وَسَلّمْ عَلى نَبِيِّنَا مُحَمَّدٍ",
     "source": null,

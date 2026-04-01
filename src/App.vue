@@ -10,14 +10,12 @@
 
   <!-- Mobile app -->
   <div v-else class="app-wrapper">
-    <!-- Animated background -->
     <div class="app-bg">
       <div class="bg-shape shape-1" />
       <div class="bg-shape shape-2" />
       <div class="bg-shape shape-3" />
     </div>
 
-    <!-- Router view -->
     <div class="app-content">
       <RouterView />
     </div>
@@ -26,7 +24,6 @@
       Install App
     </button>
 
-    <!-- Bottom Nav (hidden on share page) -->
     <nav v-if="!isSharePage" class="bottom-nav">
       <RouterLink
         to="/pagi"
@@ -57,7 +54,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, ref } from "vue";
+import { computed, onMounted, onUnmounted, ref } from "vue";
 import { RouterView, RouterLink, useRoute } from "vue-router";
 import { Sun, Moon, Settings2 } from "lucide-vue-next";
 import { useSettingStore } from "@/stores/setting";
@@ -65,25 +62,45 @@ import { useSettingStore } from "@/stores/setting";
 const route = useRoute();
 const setting = useSettingStore();
 
-const isDesktop = computed(() => window.innerWidth >= 768);
+// Reactive — update kalau window di-resize
+const windowWidth = ref(window.innerWidth);
+const isDesktop = computed(() => windowWidth.value >= 768);
 const isSharePage = computed(() => route.path === "/share");
 
 const deferredPrompt = ref<any>(null);
 const canInstall = ref(false);
 
+function handleResize() {
+  windowWidth.value = window.innerWidth;
+}
+
+function handleBeforeInstallPrompt(e: any) {
+  e.preventDefault();
+  deferredPrompt.value = e;
+  canInstall.value = true;
+  console.log("✅ beforeinstallprompt fired!");
+}
+
+function handleAppInstalled() {
+  canInstall.value = false;
+  deferredPrompt.value = null;
+  console.log("App installed ✅");
+}
+
 onMounted(() => {
   setting.loadFromStorage();
-  window.addEventListener("beforeinstallprompt", (e: any) => {
-    e.preventDefault();
-    deferredPrompt.value = e;
-    canInstall.value = true;
-  });
 
-  window.addEventListener("appinstalled", () => {
-    canInstall.value = false;
-    deferredPrompt.value = null;
-    console.log("App installed ✅");
-  });
+  window.addEventListener("resize", handleResize);
+  window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+  window.addEventListener("appinstalled", handleAppInstalled);
+
+  console.log("🔍 Mounting, waiting for beforeinstallprompt...");
+});
+
+onUnmounted(() => {
+  window.removeEventListener("resize", handleResize);
+  window.removeEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+  window.removeEventListener("appinstalled", handleAppInstalled);
 });
 
 async function installApp() {
@@ -231,7 +248,7 @@ async function installApp() {
 
 .install-btn {
   position: fixed;
-  bottom: 20px;
+  bottom: 80px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 9999;

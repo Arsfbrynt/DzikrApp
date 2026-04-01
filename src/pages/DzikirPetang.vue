@@ -48,9 +48,15 @@
         :card="card"
         :index="i"
         source="petang"
+        @play="openDetail"
       />
       <div class="scroll-bottom-pad" />
     </div>
+    <DzikirDetailModal
+      :visible="showDetail"
+      :card="selectedCard"
+      @close="showDetail = false"
+    />
   </div>
 </template>
 
@@ -59,9 +65,18 @@ import { computed, ref } from "vue";
 import { Moon, Play } from "lucide-vue-next";
 import DzikirCard from "@/components/DzikirCard.vue";
 import dzikirData from "@/data/dzikirPetang.json";
+import DzikirDetailModal from "@/components/DzikirModal.vue";
 
 const cards = ref(dzikirData);
 const showPlayer = ref(false);
+
+const showDetail = ref(false);
+const selectedCard = ref<(typeof dzikirData)[0] | null>(null);
+
+function openDetail(card: (typeof dzikirData)[0]) {
+  selectedCard.value = card;
+  showDetail.value = true;
+}
 
 const accentColor = getComputedStyle(document.documentElement)
   .getPropertyValue("--theme-grad-to")
