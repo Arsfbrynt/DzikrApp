@@ -132,8 +132,8 @@ function selectTheme(name: ThemeName) {
   settingStore.setTheme(name);
 }
 
-const showArabic = ref(true);
-const showLatin = ref(true);
+const showArabic = ref(settingStore.isShowTranslate || false);
+const showLatin = ref(settingStore.isShowLatin || false);
 
 watch(
   showArabic,

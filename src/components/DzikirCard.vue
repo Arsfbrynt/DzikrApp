@@ -70,10 +70,10 @@
 
       <!-- Latin -->
       <p
-        class="latin-text notranslate"
+        class="latin-text notranslate font-semibold"
         lang="id"
         translate="no"
-        :style="{ fontSize: `var(--dzikr-font-size)` }"
+        :style="{ fontSize: `calc(var(--dzikr-font-size) * 0.7)` }"
         v-if="settingStore.isShowLatin"
       >
         {{ card.latin }}
@@ -134,7 +134,7 @@ const isDragging = ref(false);
 const startX = ref(0);
 const showHint = ref(true);
 
-const SWIPE_THRESHOLD = -70;
+const SWIPE_THRESHOLD = -300;
 const MAX_DRAG = -100;
 
 const revealOpacity = computed(() => Math.min(1, Math.abs(dragX.value) / 80));
