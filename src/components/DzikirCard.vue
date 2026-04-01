@@ -134,7 +134,7 @@ const isDragging = ref(false);
 const startX = ref(0);
 const showHint = ref(true);
 
-const SWIPE_THRESHOLD = -300;
+const SWIPE_THRESHOLD = -50;
 const MAX_DRAG = -100;
 
 const revealOpacity = computed(() => Math.min(1, Math.abs(dragX.value) / 80));
@@ -145,14 +145,19 @@ function onTouchStart(e: TouchEvent) {
   isDragging.value = true;
   showHint.value = false;
 }
+const DRAG_RESISTANCE = 0.3;
 
 function onTouchMove(e: TouchEvent) {
   if (!isDragging.value) return;
-  const dx = e.touches[0].clientX - startX.value;
+
+  const rawDx = e.touches[0].clientX - startX.value;
+  const dx = rawDx * DRAG_RESISTANCE;
+
   if (dx > 0) {
     dragX.value = 0;
     return;
   }
+
   dragX.value = Math.max(MAX_DRAG, dx);
 }
 
