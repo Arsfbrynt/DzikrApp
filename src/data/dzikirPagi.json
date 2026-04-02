@@ -102,8 +102,8 @@
 
   {
     "id": 13,
-    "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالْفَقْرِ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، لَا إِلَهَ إِلَّا أَنْتَ تُعِيدُهَا ثَلَاثًا حِينَ تُصْبِحُ، وَثَلَاثًا حِينَ تُمْسِي، فَتَدْعُو بِهِنَّ",
-    "latin": "Allahumma innii a’udzu bika minal-kufri wal-faqri, Allahumma innii a’udzu bika min ‘adzaabil-qabri, laa ilaaha illa anta",
+    "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَاأَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، لَا إِلَهَ إِلَّا أَنْتَ تُعِيدُهَا ثَلَاثًا حِينَ تُصْبِحُ، وَثَلَاثًا حِينَ تُمْسِي، فَتَدْعُو بِهِنَّ",
+    "latin": "Allahumma innii a’udzu bika minal-kufri wal-faqri, Wa a’udzu bika min ‘adzaabil-qabri, laa ilaaha illa anta",
     "terjemahan": "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari kekufuran dan kefakiran, Ya Allah, sesungguhnya aku berlindung kepada-Mu dari siksa kubur, tidak ada ilah yang berhak disembah kecuali Engkau.",
     "source": "H.R Abu Dawud dan al-Bukhari dalam al-Adabul Mufrad dari Abu Bakrah, dinilai sanadnya hasan oleh Syaikh al-Albaniy",
     "faedah": "Disunnahkan untuk berdoa kepada Allah meminta perlindungan dari kekafiran, kefakiran, dan adzab kubur sebanyak 3 kali di pagi hari dan sore hari",
@@ -157,7 +157,7 @@
   {
     "id": 19,
     "surah": "Dibaca 1x",
-    "arabic": "يَا حَيُّ يَا قَيُّوْمُ بِرَحْمَتِكَ أَسْتَغِيْثُ، وَأَصْلِحْ لِيْ شَأْنِيْ كُلَّهُ وَلاَ تَكِلْنِيْ إِلَى نَفْسِيْ طَرْفَةَ عَيْنٍ أَبَدًا",
+    "arabic": "يَا حَيُّ يَا قَيُّوْمُ بِرَحْمَتِكَ أَسْتَغِيْثُ، وَأَصْلِحْ لِيْ شَأْنِيْ كُلَّهُ وَلاَ تَكِلْنِيْ إِلَى نَفْسِيْ طَرْفَةَ عَيْنٍ",
     "latin": "Yaa Hayyu Yaa Qoyyum, bi-rohmatika as-taghiits, wa ash-lih lii sya’nii kullahu wa laa takilnii ilaa nafsii thorfata ‘ainin.",
     "terjemahan": "“Wahai Rabb Yang Maha Hidup, wahai Rabb Yang Berdiri Sendiri (tidak butuh segala sesuatu), dengan rahmat-Mu aku minta pertolongan, perbaikilah segala urusanku dan jangan diserahkan kepadaku sekali pun sekejap mata (tanpa mendapat pertolongan dariMu)",
     "faedah": "Dzikir ini diajarkan oleh Nabi shallallahu ‘alaihi wa sallam pada Fathimah supaya diamalkan pagi dan petang.",
@@ -189,7 +189,7 @@
   },
   {
     "id": 23,
-    "surah": "Dibaca 100x",
+    "surah": "Dibaca 10x",
     "arabic": "لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ",
     "latin": "Laa ilaha illallah wahdahu laa syarika lah, lahul mulku walahul hamdu wa huwa ‘ala kulli syai-in qodiir.",
     "terjemahan": "Tidak ada ilah yang berhak disembah selain Allah semata, tidak ada sekutu bagiNya. Bagi-Nya kerajaan dan segala pujian. Dia-lah yang berkuasa atas segala sesuatu.",
@@ -230,7 +230,7 @@
   },
   {
     "id": 28,
-    "surah": "Dibaca 3x",
+    "surah": "Dibaca 10x",
     "arabic": "اللَّهُمَّ صَلِّ وَسَلّمْ عَلى نَبِيِّنَا مُحَمَّدٍ",
     "source": null,
     "latin": "allahumma sholli wa sallim ala nabiyyina Muhammad",
