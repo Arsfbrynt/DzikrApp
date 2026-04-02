@@ -28,7 +28,7 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-html, body { font-family: 'Plus Jakarta Sans', sans-serif; overscroll-behavior: none; height: 100%; }
+html, body { font-family: 'Plus Jakarta Sans', sans-serif; overscroll-behavior: none; height: 100%; overflow: hidden; }
 #app { height: 100%; }
 
 .arabic-text { font-family: 'Amiri', serif; direction: rtl; text-align: right; line-height: 2; }
