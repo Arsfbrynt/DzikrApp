@@ -122,7 +122,7 @@
 
   {
     "id": 15,
-    "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَاأَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، لَا إِلَهَ إِلَّا أَنْتَنَّ",
+    "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، لَا إِلَٰهَ إِلَّا أَنْتَ",
     "latin": "Allahumma innii a’udzu bika minal-kufri wal-faqri, Wa a’udzu bika min ‘adzaabil-qabri, laa ilaaha illa anta",
     "terjemahan": "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari kekufuran dan kefakiran, Ya Allah, sesungguhnya aku berlindung kepada-Mu dari siksa kubur, tidak ada ilah yang berhak disembah kecuali Engkau.",
     "source": "H.R Abu Dawud dan al-Bukhari dalam al-Adabul Mufrad dari Abu Bakrah, dinilai sanadnya hasan oleh Syaikh al-Albaniy",
@@ -230,13 +230,15 @@
     "arabic": "اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلاً مُتَقَبَّلاً",
     "latin": "Allahumma innii as-aluka ‘ilman naafi’a, wa rizqon thoyyibaa, wa ‘amalan mutaqobbalaa.",
     "terjemahan": "“Ya Allah, sungguh aku memohon kepada-Mu ilmu yang bermanfaat (bagi diriku dan orang lain), rizki yang halal dan amal yang diterima (di sisi-Mu dan mendapatkan ganjaran yang baik)",
-    "source": "HR. Ibnu Majah no. 925 dan Ahmad 6: 305, 322. Al Hafizh Abu Thohir mengatakan bahwa hadits ini shahih."
+    "source": "HR. Ibnu Majah no. 925 dan Ahmad 6: 305, 322. Al Hafizh Abu Thohir mengatakan bahwa hadits ini shahih.",
+    "surah": "Dibaca 3x"
   },
   {
     "id": 28,
     "surah": "Dibaca 10x",
     "arabic": "أَسْتَغْفِرُ اللهَ وَأَتُوْبُ إِلَيْهِ",
     "latin": "Astagh-firullah wa atuubu ilaih.",
+    "terjemahan": "Aku memohon ampun kepada Allah dan aku bertaubat kepada-Nya",
     "faedah": "Rasulullah ﷺ beristighfar lebih dari 70 kali dalam sehari sebagai bentuk taubat dan mendekatkan diri kepada Allah.",
     "source": "HR. Bukhari no. 6307 dan Muslim no. 2702."
   },
@@ -251,7 +253,7 @@
   },
   {
     "id": 30,
-    "surah": "Dibaca 3x",
+    "surah": "Dibaca 10x",
     "arabic": "اللَّهُمَّ صَلِّ وَسَلّمْ عَلى نَبِيِّنَا مُحَمَّدٍ",
     "faedah": "Memperbanyak shalawat menjadi sebab dikabulkannya doa, diampuni dosa, dan mendapatkan syafaat Nabi ﷺ.",
     "source": "HR. Tirmidzi no. 2457 (hasan)",
